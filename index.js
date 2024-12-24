@@ -1,6 +1,8 @@
 const { Builder, By, until } = require('selenium-webdriver');
 const fs = require('fs');
 const path = require('path');
+const SEGUNDO = 1000;
+const DELAY = SEGUNDO * 5;
 
 (async function automationWithSelenium() {
   // Configuración inicial
@@ -11,6 +13,39 @@ const path = require('path');
   logReport("=== INICIO DEL REPORTE DE AUTOMATIZACIÓN ===");
 
   try {
+
+    await driver.get(url);
+    await driver.sleep(SEGUNDO * 10);
+
+    const inputUser = await driver.wait(until.elementLocated(
+      By.xpath('//*[@id="flt-semantic-node-7"]/input')
+      ), SEGUNDO * 3
+    );
+
+    //await driver.sleep(DELAY);
+    await inputUser.sendKeys('qxuco2024');
+    //await driver.sleep(DELAY);
+
+    const contraUser = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-8"]/input')
+    );
+
+    //await driver.sleep(DELAY);
+    await contraUser.sendKeys("qxuco2024*");
+    //await driver.sleep(DELAY);
+
+    const botonLogin = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-10"]')
+    );
+
+    botonLogin.click();
+
+    await driver.wait(
+      until.elementLocated(By.xpath('//*[@id="flt-semantic-node-19"]')),
+      SEGUNDO * 10 
+    )
+
+    await driver.sleep(SEGUNDO * 20);
 
   } catch (error) {
     logReport(`Error en la automatización: ${error.message}`, "ERROR");
