@@ -12,5 +12,10 @@
   "dependencies": {
     "chromedriver": "^131.0.3",
     "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.32.0",
+    "mocha": "^11.0.1",
+    "mocha-allure-reporter": "^1.4.0"
   }
 }
