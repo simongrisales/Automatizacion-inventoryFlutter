@@ -42,7 +42,7 @@ const DELAY = SEGUNDO * 5;
 
     await driver.sleep(DELAY);
 
-    // My code Juan-Esteban
+    // code Juan-Esteban
     const apartadoFinanzas = await driver.findElement(
       By.xpath('/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[3]/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[4]/flt-semantics-container/flt-semantics')
     );
@@ -57,7 +57,7 @@ const DELAY = SEGUNDO * 5;
 
     botonAtras.click();
 
-    // My code Juan-Esteban
+    // code Juan-Esteban
 
     await driver.wait(
       until.elementLocated(By.xpath('//*[@id="flt-semantic-node-19"]')),
