@@ -45,6 +45,25 @@ const DELAY = SEGUNDO * 5;
       SEGUNDO * 10 
     )
 
+    // My code Juan-Esteban
+    const apartadoFinanzas = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-12"]')
+    );
+
+    await driver.sleep(DELAY);
+
+    apartadoFinanzas.click();
+
+    await driver.sleep(DELAY);
+
+    const botonAtras = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-35"]')
+    );
+
+    botonAtras.click();
+
+    // My code Juan-Esteban
+
     await driver.sleep(SEGUNDO * 20);
 
   } catch (error) {

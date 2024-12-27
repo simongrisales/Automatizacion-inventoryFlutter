@@ -4,3 +4,55 @@
 [26/12/2024, 4:52:46 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
 [26/12/2024, 4:53:21 p. m.] ℹ️ Cerrando el navegador.
 [26/12/2024, 4:53:21 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:46:24 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:46:48 p. m.] ❌ Error en la automatización: Waiting for element to be located By(xpath, //*[@id="flt-semantic-node-19"])
+Wait timed out after 10149ms
+[26/12/2024, 8:46:57 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 8:46:57 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:47:28 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:48:02 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 8:48:02 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:50:40 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:51:15 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 8:51:15 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:53:46 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:54:01 p. m.] ❌ Error en la automatización: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="flt-semantic-node-1891"]"}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 8:54:04 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 8:54:04 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:55:28 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:55:42 p. m.] ❌ Error en la automatización: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="flt-semantic-node-1891"]"}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 8:55:43 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 8:55:43 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:57:37 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:58:17 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 8:58:17 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:58:22 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 8:59:01 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 8:59:01 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:01:59 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:02:40 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 9:02:40 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:03:57 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:06:11 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:07:06 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 9:07:06 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:07:25 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:08:20 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 9:08:20 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:22:13 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:22:29 p. m.] ❌ Error en la automatización: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="flt-semantic-node-12"]"}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 9:22:30 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 9:22:30 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:25:02 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:25:22 p. m.] ❌ Error en la automatización: Waiting for element to be located By(xpath, //*[@id="flt-semantic-node-12"])
+Wait timed out after 3013ms
+[26/12/2024, 9:25:24 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 9:25:24 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:31:08 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 9:31:23 p. m.] ❌ Error en la automatización: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="flt-semantic-node-12"]"}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 9:31:23 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 9:31:23 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
