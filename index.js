@@ -40,6 +40,25 @@ const DELAY = SEGUNDO * 5;
 
     botonLogin.click();
 
+    await driver.sleep(DELAY);
+
+    // My code Juan-Esteban
+    const apartadoFinanzas = await driver.findElement(
+      By.xpath('/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[3]/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[4]/flt-semantics-container/flt-semantics')
+    );
+
+    apartadoFinanzas.click();
+
+    await driver.sleep(DELAY);
+
+    const botonAtras = await driver.findElement(
+      By.xpath('/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[1]/flt-semantics-container/flt-semantics[1]')
+    );
+
+    botonAtras.click();
+
+    // My code Juan-Esteban
+
     await driver.wait(
       until.elementLocated(By.xpath('//*[@id="flt-semantic-node-19"]')),
       SEGUNDO * 10 
