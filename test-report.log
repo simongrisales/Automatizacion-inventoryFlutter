@@ -1,1 +1,31 @@
  
+[26/12/2024, 11:10:31 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:11:31 p. m.] ❌ Error en la automatización: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression /html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[1]/flt-semantics-container/flt-semantics[1]] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[1]/flt-semantics-container/flt-semantics[1]]' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 11:11:32 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 11:11:32 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:12:54 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:14:54 p. m.] ❌ Error en la automatización: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[3]/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[4]/flt-semantics-container/flt-semantics"}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 11:14:56 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 11:14:56 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:16:28 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:18:39 p. m.] ❌ Error en la automatización: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[4]/flt-semantics-container/flt-semantics[2]"}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 11:18:41 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 11:18:41 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:22:24 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:28:41 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:31:35 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:33:46 p. m.] ❌ Error en la automatización: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="flt-semantic-node-4910"]"}
+  (Session info: chrome=131.0.6778.205)
+[26/12/2024, 11:33:47 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 11:33:47 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:36:59 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:41:51 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:43:41 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:45:24 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:52:19 p. m.] ℹ️ === INICIO DEL REPORTE DE AUTOMATIZACIÓN ===
+[26/12/2024, 11:53:23 p. m.] ℹ️ Cerrando el navegador.
+[26/12/2024, 11:53:23 p. m.] ℹ️ === FIN DEL REPORTE DE AUTOMATIZACIÓN ===
