@@ -42,7 +42,88 @@ const DELAY = SEGUNDO * 5;
 
     await driver.sleep(DELAY);
 
-    // code Juan-Esteban
+    // code Simon
+      
+    const botonVentas = await driver.findElement(
+      By.xpath('/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[3]/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[2]/flt-semantics-container/flt-semantics')
+    );
+
+    botonVentas.click();
+
+    await driver.sleep(DELAY);
+
+    const botonUrl = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2105"]')
+    );
+
+    botonUrl.click();
+
+    await driver.sleep(SEGUNDO * 3);
+
+    const botonUrlProducto = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2757"]')
+    );
+      
+    botonUrlProducto.click();
+
+    await driver.sleep(SEGUNDO);
+
+    const botonConfirmarProducto = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2832"]')
+    );
+      
+    botonConfirmarProducto.click();
+
+    await driver.sleep(SEGUNDO);
+
+    const botonMetodosDePago = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2805"]')
+    );
+
+    botonMetodosDePago.click();
+
+    await driver.sleep(SEGUNDO);
+
+    const botonAñadirMetodoDePago = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2841"]')
+    );
+
+    botonAñadirMetodoDePago.click();
+
+    await driver.sleep(SEGUNDO);
+
+    const inputMonto = await driver.wait(until.elementLocated(
+      By.xpath('//*[@id="flt-semantic-node-2849"]/input')
+      ), SEGUNDO * 3
+    );
+
+    await inputMonto.sendKeys('20000');
+
+    const botonConfirmarMetodo = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2895"]')
+    );
+
+    botonConfirmarMetodo.click();
+
+    await driver.sleep(SEGUNDO);
+
+    const botonConfirmarVenta = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2808"]')
+    );
+
+    botonConfirmarVenta.click();
+
+    await driver.sleep(DELAY);
+
+    const botonVolverDeVentas = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-2808"]')
+    );
+
+    botonVolverDeVentas.click();
+
+    //code Simon cerrar
+
+    // code Juan Esteban
     const apartadoFinanzas = await driver.findElement(
       By.xpath('/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[3]/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[4]/flt-semantics-container/flt-semantics')
     );
@@ -57,7 +138,7 @@ const DELAY = SEGUNDO * 5;
 
     botonAtras.click();
 
-    // code Juan-Esteban
+    // code Juan Esteban cerrar
 
     await driver.wait(
       until.elementLocated(By.xpath('//*[@id="flt-semantic-node-19"]')),
