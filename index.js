@@ -42,6 +42,65 @@ const DELAY = SEGUNDO * 5;
 
     await driver.sleep(DELAY);
 
+    // code Emmanuel
+    const botonProductos = await driver.findElement(
+      By.xpath('/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[4]/flt-semantics-container/flt-semantics[2]')
+    );
+
+    botonProductos.click();
+    await driver.sleep(DELAY);
+
+
+    const botonCrear = await driver.findElement(
+      By.xpath('/html/body/flutter-view/flt-semantics-host/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[2]/flt-semantics-container/flt-semantics/flt-semantics-container/flt-semantics[1]/flt-semantics-container/flt-semantics')
+    );
+
+    botonCrear.click();
+    await driver.sleep(DELAY);
+
+    const inputnameprod = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-55"]/input')
+    );
+
+    await inputnameprod.sendKeys('MacBook Pro 16´');
+    await driver.sleep(DELAY);
+
+    const inputdescrip = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-56"]/input')
+    );
+
+    await inputdescrip.sendKeys("MacBook de 16 pulgadas");
+    await driver.sleep(DELAY);
+
+    const inputprecio = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-57"]/input')
+    );
+
+    await inputprecio.sendKeys('7000000');
+    await driver.sleep(DELAY);
+
+    const inputiva = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-58"]/input')
+    );
+
+    await inputiva.sendKeys('19');
+    await driver.sleep(DELAY);
+
+    const botonGuardar = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-69"]')
+    );
+
+    botonGuardar.click();
+
+    await driver.sleep(DELAY);
+
+    const botonflecha = await driver.findElement(
+      By.xpath('//*[@id="flt-semantic-node-44"]')
+    );
+
+    await driver.sleep(DELAY);
+    // code Emmanuel cerrar
+
     // code Simon
       
     const botonVentas = await driver.findElement(
